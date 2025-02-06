@@ -1,6 +1,7 @@
 // src/pages/AboutUs/AboutUs.jsx
 import React from 'react';
 import './AboutUs.css';
+import { Link } from 'react-router-dom';
 
 function AboutUs() {
   return (
@@ -61,8 +62,13 @@ function AboutUs() {
           Our mission is to provide a reliable and efficient platform for verifying
           educational credentials, fostering trust and transparency in the academic
           and professional world.
+          <br />
+          <br />
+                <h3 className='Home'><Link to='/'>Home</Link></h3>
         </p>
+  
       </div>
+    
     </div>
   );
 }

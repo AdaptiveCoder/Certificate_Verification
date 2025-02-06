@@ -45,8 +45,12 @@ function Login() {
   };
 
   return (
+    
     <div className="login-page">
-      <div className="login-container"> {/* Added container for centering */}
+    
+      <div className="login-container">
+      
+         {/* Added container for centering */}
         <h2>Login</h2>
         <form className="login-form" onSubmit={handleSubmit}>
           <div className="form-group">
@@ -79,6 +83,8 @@ function Login() {
             Don't have an account? <Link to="/register">Register here</Link>
           </p>
         </form>
+        <h3 className='Home'> <Link to="/">HomePage</Link></h3>
+
       </div>
     </div>
   );

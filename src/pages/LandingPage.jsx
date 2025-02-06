@@ -6,6 +6,9 @@ function LandingPage() {
   return (
     <div className="landing-page">
       <header className="hero">
+        <div className="bgc">
+        <img src="https://i.pinimg.com/736x/ab/7f/86/ab7f86ab6a787d2a03f4f000f288f740.jpg" alt="" />
+        </div>
         <div className="hero-content">
           <h1>Secure Your Future with Verified Credentials</h1>
           <p>

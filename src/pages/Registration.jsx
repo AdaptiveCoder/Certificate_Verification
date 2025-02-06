@@ -53,7 +53,7 @@ function Registration() {
 
   return (
     <div className="registration-page">
-      <h2>Register</h2>
+      <h2>Registeration</h2>
       <form className="registration-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>

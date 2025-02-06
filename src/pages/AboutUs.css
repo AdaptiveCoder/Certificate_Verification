@@ -16,7 +16,27 @@
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
   }
+  .Home a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+  
+  }
+  
+  .Home a:hover {
+    text-decoration: underline;
+  }
+   .Home
+   {
+    /* transform: translate(-50%,-50%); */
+    position: absolute;
+    bottom: 0;
+    padding-left:500px ;
+    padding-bottom: 100px;
+    
+   }
   
   .about-us-page h1 {
     font-size: 2.5rem;

@@ -1,15 +1,18 @@
 /* src/components/Navbar.css */
 .navbar {
-    background-color: #ce7f11; /* Dark background for navbar */
+    /* background-color: #ce7f11; Dark background for navbar */
     padding: 10px;
     display: flex;
     gap: 800px;
     align-items: center;
     height: 30px;
     color: rgb(0, 0, 0);
+    background-image: radial-gradient( circle 369px at -2.9% 12.9%,  rgba(247,234,163,1) 0%, rgba(236,180,238,0.56) 46.4%, rgba(163,203,247,1) 100.7% );
+    margin: 20px;
+
   }
   h3{
-    margin-left:40px ;
+    margin-left:80px ;
   }
   .navbar ul {
     list-style: none;
